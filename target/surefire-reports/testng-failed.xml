@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [com.mycompany_EBAYTest_jar_1.0-SNAPSHOT]">
+  <test name="ebay.com suite(failed)">
+    <classes>
+      <class name="ebay.com.EbayTestNGTest">
+        <methods>
+          <include name="tC007PrintOrderProductsByNameAsc"/>
+          <include name="beforeTest"/>
+          <include name="tC008PrintOrderProductsByPriceDesc"/>
+          <include name="afterTest"/>
+          <include name="tC004OrderAscendant"/>
+          <include name="tC005AssertOrder"/>
+          <include name="tC006PrintProductsandprices"/>
+        </methods>
+      </class> <!-- ebay.com.EbayTestNGTest -->
+    </classes>
+  </test> <!-- ebay.com suite(failed) -->
+</suite> <!-- Failed suite [com.mycompany_EBAYTest_jar_1.0-SNAPSHOT] -->
